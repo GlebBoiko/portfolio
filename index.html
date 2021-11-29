@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.13.0/css/all.css">
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/media.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="dropdown">
+		<button class="drop-btn fas fa-cog"></button>
+		<div class="drop-menu">
+            <button class="translate" id="" onclick="
+            changeLang(de);
+            "><img src="img/p.png" alt=""></button>
+            <button class="translate" id="" onclick="
+            changeLang(es);
+            "><img src="img/s.png" alt=""></button>
+            <button class="translate" id="" onclick="
+                changeLang(en);
+                "><img src="img/e.svg" alt=""></button>
+            <button class="translate" id="" onclick="
+                changeLang(ru);
+                "><img src="img/r.png" alt=""></button>
+		</div>
+	</div>
+    <div class="preloader"><svg class="preloader__image" role="img" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512"><path fill="currentColor"d="M304 48c0 26.51-21.49 48-48 48s-48-21.49-48-48 21.49-48 48-48 48 21.49 48 48zm-48 368c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zm208-208c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.49-48-48-48zM96 256c0-26.51-21.49-48-48-48S0 229.49 0 256s21.49 48 48 48 48-21.49 48-48zm12.922 99.078c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.491-48-48-48zm294.156 0c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48c0-26.509-21.49-48-48-48zM108.922 60.922c-26.51 0-48 21.49-48 48s21.49 48 48 48 48-21.49 48-48-21.491-48-48-48z"></path></svg></div>
+    <div class="conteiner">
+        <div class="content1">
+            <h2 id="1">Hi, I'm Gleb Boiko</h2>
+            <div class="line"></div>
+            <h3 id="2">Web-developer / HTML-layout designer / Javascript</h3>
+            <div class="more">
+                <a id="3" href="#head1">Know more</a>
+            </div>
+            <div class="arrow">
+                <a href="#head1" class="fas fa-angle-down"></a>
+            </div>
+        </div>
+        <div class="content2" id="head1">
+            <button class="button slider-prev fas fa-chevron-left"></button>
+            <div class="slider">
+                <div class="slider-line">
+                    <div class="page">
+                        <div class="bg-1"></div>
+                        <div class="text">
+                            <h2 id="4">About me</h2>
+                            <div class="line"></div>
+                            <h3 id="5">A little bit about yourself</h3>
+                            <h4 id="6">Good day, my name is Gleb Boiko
+                                I am doing web development from scratch.
+                                I carry out layout and programming of sites, as well as revision, typesetting adaptive layout
+                                Thus, the site is beautiful on any device, be it a computer, laptop or phone!                    </h4>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="bg-2"></div>
+                        <div class="text">
+                            <h2 id="7">About me</h2>
+                            <div class="line"></div>
+                            <h3 id="9">Knowledge and Skills</h3>
+                            <h4 id="10">I know programming languages such as JavaScript. Markup languages: HTML (5), CSS stylesheets (3).
+                                I can make up responsive websites for tablets and mobile devices, Bootstrap framework. Also know the jQuery library!</h4>
+                        </div>
+                    </div>
+                    <div class="page">
+                        <div class="bg-3"></div>
+                        <div class="text">
+                            <h2 id="8">About me</h2>
+                            <div class="line"></div>
+                            <h3 id="11">Self-education</h3>
+                            <h4 id="12">Online courses, video courses, books, documentation, forums, articles ...</h4>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <button class="button slider-next fas fa-chevron-right"></button>
+        </div>
+        <div class="content3">
+            <div class="parallax background-tree" id="background-tree"></div>
+            <h2 id="13">Professional skills</h2>
+            <div class="line"></div>
+            <div class="cards">
+                <div class="card a">
+                    <h2>HTML|CSS</h2>
+                    <img src="img/80.png" alt="">
+                </div>
+                <div class="card">
+                    <h2>jQuery|JavaScript</h2>
+                    <img src="img/75.png" alt="">
+                </div>
+                <div class="card">
+                    <h2>Photoshop</h2>
+                    <img src="img/101.png" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="content4">
+            <h2 id="18">Portfolio</h2>
+            <div class="line"></div>
+            <div class="cards">
+                <div class="card a">
+                    <div class="overlay">
+                        <h2>PLATFORMS</h2>
+                        <button id="14" class="btn" data-modal="#m1">More details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <h2>HOSTING</h2>
+                        <button id="15" class="btn" data-modal="#m2">More details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <h2>FERMAVDOM</h2>
+                        <button id="16" class="btn" data-modal="#m3">More details</button>
+                    </div>
+                </div>
+                <div class="card">
+                    <div class="overlay">
+                        <h2>Bizarre Craft</h2>
+                        <button id="17" class="btn" data-modal="#m4">More details</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="content5">
+            <h2 id="19">Contacts</h2>
+            <div class="line"></div>
+            <h3 id="20">If you have any questions, I will be happy to answer them!</h3>
+            <h3 id="25" class="l">To do this, contact me in a convenient way for you and I will answer you as soon as possible!</h3>
+            <form action="https://formspree.io/f/mbjqgwlw" method="post">
+                <div class="group">      
+                    <input name="Name" type="text" required>
+                    <span class="bar"></span>
+                    <label id="21">Your name</label>
+                </div>
+                <div class="group">      
+                    <input name="Email" type="email" required>
+                    <span class="bar"></span>
+                    <label id="22">Your E-mail</label>
+                </div>
+                <div class="group">      
+                    <input name="Message" type="text" required>
+                    <span class="bar"></span>
+                    <label id="23">Your message</label>
+                </div>
+
+                <button id="24" class="but" type="submit">Submit</button>
+            </form>
+        </div>
+    </div>
+
+
+    <div id="m1" class="modal-container">
+		<div class="overlay" data-modal="close"></div>
+		<div class="modal">
+            <img src="img/p1.png" alt="">
+		</div>
+	</div>
+    <div id="m2" class="modal-container">
+		<div class="overlay" data-modal="close"></div>
+		<div class="modal">
+            <img src="img/p2.png" alt="">
+		</div>
+	</div>
+    <div id="m3" class="modal-container">
+		<div class="overlay" data-modal="close"></div>
+		<div class="modal">
+            <img src="img/p3.png" alt="">
+		</div>
+	</div>
+    <div id="m4" class="modal-container">
+		<div class="overlay" data-modal="close"></div>
+		<div class="modal">
+            <img src="img/p4.png" alt="">
+		</div>
+	</div>
+
+    <script src="js/language.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>

@@ -1,0 +1,242 @@
+@media (max-width: 1200px) {
+  .dropdown {
+    margin-top: 90vh;
+  }
+  .conteiner .content1 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content1 h3 {
+    font-size: 40px;
+  }
+  .conteiner .content1 .more a {
+    padding: 0.9rem 3rem;
+    font-size: 25px;
+  }
+  .conteiner .content1 .arrow {
+    padding-top: 100px;
+  }
+  @keyframes arrow {
+    50% {
+      padding-top: 120px;
+    }
+  }
+  .conteiner .content2 {
+    text-align: center;
+  }
+  .conteiner .content2 .slider {
+    width: 90%;
+  }
+  .conteiner .content2 .bg-1,
+  .conteiner .content2 .bg-2,
+  .conteiner .content2 .bg-3 {
+    background-size: 500px;
+    background-position: 300px;
+  }
+  .conteiner .content2 .text h2,
+  .conteiner .content2 .text .line,
+  .conteiner .content2 .text h3,
+  .conteiner .content2 .text h4 {
+    padding-left: 15px;
+    margin-left: 0;
+  }
+  .conteiner .content2 .text h2 {
+    font-size: 45px;
+  }
+  .conteiner .content2 .text h3 {
+    font-size: 40px;
+  }
+  .conteiner .content2 .text h4 {
+    width: 600px;
+    font-size: 30px;
+  }
+  .conteiner .content3 {
+    height: 100%;
+  }
+  .conteiner .content3 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content3 .cards {
+    margin-bottom: 5%;
+  }
+  .conteiner .content3 .cards .card {
+    padding-left: 3%;
+  }
+  .conteiner .content4 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content4 .cards .card {
+    margin-top: 50px;
+    width: 300px;
+    height: 300px;
+  }
+  .conteiner .content4 .cards .card .overlay {
+    width: 300px;
+    height: 300px;
+  }
+  .conteiner .content4 .cards .card .overlay h2 {
+    padding: 0;
+  }
+  .conteiner .content4 .cards .card .overlay button {
+    margin-top: 200px;
+  }
+  .conteiner .content5 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content5 h3 {
+    font-size: 30px;
+  }
+  .conteiner .content5 form input {
+    font-size: 26px;
+  }
+}
+@media (max-width: 900px) {
+  .conteiner .content2 {
+    text-align: center;
+  }
+  .conteiner .content2 .slider-prev {
+    width: 5%;
+  }
+  .conteiner .content2 .slider-next {
+    width: 5%;
+  }
+  .conteiner .content2 .slider {
+    width: 80%;
+  }
+  .conteiner .content2 .bg-1,
+  .conteiner .content2 .bg-2,
+  .conteiner .content2 .bg-3 {
+    background-size: 500px;
+    background-position: 0;
+  }
+  .conteiner .content2 .text h2,
+  .conteiner .content2 .text .line,
+  .conteiner .content2 .text h3,
+  .conteiner .content2 .text h4 {
+    padding-left: 15px;
+    margin-left: 0;
+  }
+  .conteiner .content2 .text h2 {
+    font-size: 45px;
+  }
+  .conteiner .content2 .text h3 {
+    font-size: 40px;
+  }
+  .conteiner .content2 .text h4 {
+    width: 600px;
+    font-size: 30px;
+  }
+  .conteiner .content3 .cards .card:last-child {
+    padding: 0;
+  }
+  .conteiner .content4 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content4 .cards {
+    padding: 0;
+  }
+  .conteiner .content4 .cards .card {
+    width: 400px;
+    height: 400px;
+  }
+  .conteiner .content4 .cards .card .overlay {
+    width: 400px;
+    height: 400px;
+  }
+  .conteiner .content4 .cards .card .overlay h2 {
+    padding: 0;
+  }
+  .conteiner .content4 .cards .card .overlay button {
+    margin-top: 200px;
+  }
+  .conteiner .content5 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content5 h3 {
+    font-size: 30px;
+  }
+  .conteiner .content5 form .group label {
+    font-size: 25px;
+    top: 0;
+  }
+  .conteiner .content5 form button {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+}
+@media (max-width: 600px) {
+  .conteiner .content1 .arrow {
+    display: none;
+  }
+  .conteiner .content2 {
+    height: 100%;
+  }
+  .conteiner .content2 .slider-prev {
+    width: 10%;
+    margin-top: 550px;
+  }
+  .conteiner .content2 .slider-next {
+    margin-top: 550px;
+    width: 10%;
+  }
+  .conteiner .content2 .slider {
+    height: 100%;
+    width: 80%;
+  }
+  .conteiner .content2 .bg-1,
+  .conteiner .content2 .bg-2,
+  .conteiner .content2 .bg-3 {
+    display: none;
+  }
+  .conteiner .content2 .text h4 {
+    width: 65%;
+    font-size: 30px;
+  }
+  .conteiner .content3 {
+    background: none;
+  }
+  .conteiner .content3 .cards .card {
+    display: block;
+    padding: 0;
+  }
+  .conteiner .content3 .cards h2 {
+    font-size: 300%;
+  }
+  .conteiner .content4 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content4 .cards {
+    padding: 0;
+  }
+  .conteiner .content4 .cards .card {
+    margin-left: 0;
+    display: block;
+    width: 100%;
+    height: 70vh;
+  }
+  .conteiner .content4 .cards .card .overlay {
+    width: 100%;
+    height: 70vh;
+  }
+  .conteiner .content4 .cards .card .overlay h2 {
+    padding: 0;
+    font-size: 50px;
+  }
+  .conteiner .content4 .cards .card .overlay button {
+    font-size: 40px;
+    margin-top: 200px;
+  }
+  .conteiner .content5 h2 {
+    font-size: 55px;
+  }
+  .conteiner .content5 h3 {
+    font-size: 30px;
+  }
+  .conteiner .content5 form .group label {
+    font-size: 25px;
+    top: 0;
+  }
+  .conteiner .content5 form button {
+    font-size: 25px;
+    margin-bottom: 100px;
+  }
+}
